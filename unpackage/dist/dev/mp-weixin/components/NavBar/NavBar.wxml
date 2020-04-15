@@ -1,1 +1,1 @@
-<view class="data-v-6a162138">{{'navbar\n    '+name+''}}<button type="primary" data-event-opts="{{[['tap',[['testChild',['$event']]]]]}}" bindtap="__e" class="data-v-6a162138">event</button></view>
+<view class="data-v-6a162138">navbar<button type="primary" data-event-opts="{{[['tap',[['testChild',['$event']]]]]}}" bindtap="__e" class="data-v-6a162138">event</button></view>

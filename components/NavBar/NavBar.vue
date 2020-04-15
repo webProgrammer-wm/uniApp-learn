@@ -1,7 +1,6 @@
 <template>
 	<view>
 		navbar
-    {{ name }}
     <button type="primary" @click="testChild">event</button>
 	</view>
 </template>
@@ -13,7 +12,6 @@
 			
 			};
 		},
-    props: ['name'],
     methods: {
       testChild() {
         // console.log('child')
