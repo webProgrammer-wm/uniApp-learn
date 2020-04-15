@@ -19,6 +19,12 @@
       "style": {
         "navigationBarTitleText": "关于我"
       }
+    }, {
+      "path": "pages/banner/banner",
+      "style": {}
+    }, {
+      "path": "pages/two/two",
+      "style": {}
     }
   ],
   "tabBar": {

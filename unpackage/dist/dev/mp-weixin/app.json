@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/news/news",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/banner/banner",
+    "pages/two/two"
   ],
   "subPackages": [],
   "window": {

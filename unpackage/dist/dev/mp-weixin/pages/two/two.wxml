@@ -1,0 +1,1 @@
+<view>two<button data-event-opts="{{[['tap',[['toPath',['$event']]]]]}}" bindtap="__e">toOne</button></view>

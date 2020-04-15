@@ -1,0 +1,1 @@
+<view>one<button data-event-opts="{{[['tap',[['toPath',['$event']]]]]}}" bindtap="__e">toTwo</button><button data-event-opts="{{[['tap',[['goBack',['$event']]]]]}}" bindtap="__e">返回</button></view>

@@ -1,5 +1,6 @@
 <template>
 	<view class="content">
+    <nav-bar></nav-bar>
     <text>首页</text>
     {{ 'hello' }}
     <view> {{ name }}</view>
@@ -21,6 +22,8 @@
     >
       {{ item }}
     </view>
+    
+    <button type="primary" @click="toPath">toNews</button>
 	</view>
 </template>
 
@@ -43,7 +46,18 @@
 		methods: {
       setIndex(index) {
         this.curIndex = index
-      }
+      },
+      toPath() {
+        // 跳转到 pages.json 配置好的页面
+        // uni.switchTab({
+          // url: '../news/news'
+        // })
+        
+        // 保留当前页面 跳转到没在 pages.json 配置的页面
+        uni.navigateTo({
+          url: '../banner/banner?name=allen'
+        })
+      }  
 		}
 	}
 </script>
