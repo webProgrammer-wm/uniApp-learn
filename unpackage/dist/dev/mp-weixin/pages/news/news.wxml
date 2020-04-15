@@ -1,1 +1,1 @@
-<view>news</view>
+<view><view hidden="{{!(false)}}">v-show</view><block wx:if="{{false}}"><view>v-if</view></block><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view><view>xxx</view></view>
