@@ -1,0 +1,1 @@
+<view class="content"><nav-bar vue-id="8dd740cc-1" name="{{name}}" data-event-opts="{{[['^handleClick',[['testEvent']]]]}}" bind:handleClick="__e" bind:__l="__l"></nav-bar></view>
